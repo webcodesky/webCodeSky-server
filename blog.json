@@ -1,0 +1,154 @@
+[
+  {
+    "author": {
+      "name": "Amit Das",
+      "profile_image": "https://example.com/profile-amitdas.jpg",
+      "post_date": "4 days ago"
+    },
+    "article": {
+      "title": "Your portfolio is stopping you from getting that job",
+      "description": "An intense way to learn about the process and practice your design skills...",
+      "image": "https://example.com/article-image1.jpg",
+      "tags": ["Portfolio"],
+      "read_time": "3 min read",
+      "selected_for": "Selected for you"
+    },
+    "interaction": {
+      "like": true,
+      "options": true
+    }
+  },
+  {
+    "author": {
+      "name": "Sophia Lee",
+      "profile_image": "https://example.com/profile-sophialee.jpg",
+      "post_date": "2 days ago"
+    },
+    "article": {
+      "title": "5 Tips to Improve Your Coding Skills",
+      "description": "Coding is an essential skill in today's tech-driven world. Here are five tips to level up...",
+      "image": "https://example.com/article-image2.jpg",
+      "tags": ["Coding", "Skills"],
+      "read_time": "5 min read",
+      "selected_for": "Popular"
+    },
+    "interaction": {
+      "like": false,
+      "options": true
+    }
+  },
+  {
+    "author": {
+      "name": "James Oliver",
+      "profile_image": "https://example.com/profile-jamesoliver.jpg",
+      "post_date": "1 week ago"
+    },
+    "article": {
+      "title": "How to Stay Productive as a Remote Worker",
+      "description": "Remote work can be challenging, but here are some strategies to stay productive...",
+      "image": "https://example.com/article-image3.jpg",
+      "tags": ["Remote Work", "Productivity"],
+      "read_time": "4 min read",
+      "selected_for": "Trending"
+    },
+    "interaction": {
+      "like": true,
+      "options": true
+    }
+  },
+  {
+    "author": {
+      "name": "Emily Clark",
+      "profile_image": "https://example.com/profile-emilyclark.jpg",
+      "post_date": "3 hours ago"
+    },
+    "article": {
+      "title": "Design Principles Every Developer Should Know",
+      "description": "Understanding design is key to developing great user interfaces. Here are some principles...",
+      "image": "https://example.com/article-image4.jpg",
+      "tags": ["Design", "UI"],
+      "read_time": "6 min read",
+      "selected_for": "Recommended"
+    },
+    "interaction": {
+      "like": false,
+      "options": false
+    }
+  },
+  {
+    "author": {
+      "name": "Lucas Martin",
+      "profile_image": "https://example.com/profile-lucasmartin.jpg",
+      "post_date": "5 days ago"
+    },
+    "article": {
+      "title": "The Importance of Soft Skills in Tech",
+      "description": "Technical skills are important, but soft skills are equally crucial for career success...",
+      "image": "https://example.com/article-image5.jpg",
+      "tags": ["Soft Skills", "Career"],
+      "read_time": "7 min read",
+      "selected_for": "Selected for you"
+    },
+    "interaction": {
+      "like": true,
+      "options": true
+    }
+  },
+  {
+    "author": {
+      "name": "Olivia Chen",
+      "profile_image": "https://example.com/profile-oliviachen.jpg",
+      "post_date": "3 days ago"
+    },
+    "article": {
+      "title": "Understanding Cloud Computing",
+      "description": "Cloud computing has transformed the way we handle data. Here's a beginner's guide...",
+      "image": "https://example.com/article-image6.jpg",
+      "tags": ["Cloud", "Tech"],
+      "read_time": "8 min read",
+      "selected_for": "New"
+    },
+    "interaction": {
+      "like": false,
+      "options": true
+    }
+  },
+  {
+    "author": {
+      "name": "Daniel Foster",
+      "profile_image": "https://example.com/profile-danielfoster.jpg",
+      "post_date": "6 hours ago"
+    },
+    "article": {
+      "title": "Why You Should Learn Python in 2024",
+      "description": "Python remains one of the most popular programming languages. Here’s why you should consider learning it...",
+      "image": "https://example.com/article-image7.jpg",
+      "tags": ["Python", "Programming"],
+      "read_time": "10 min read",
+      "selected_for": "Recommended"
+    },
+    "interaction": {
+      "like": true,
+      "options": false
+    }
+  },
+  {
+    "author": {
+      "name": "Natalie Adams",
+      "profile_image": "https://example.com/profile-natalieadams.jpg",
+      "post_date": "10 days ago"
+    },
+    "article": {
+      "title": "Mastering the Art of Public Speaking",
+      "description": "Public speaking can be daunting, but with practice and the right techniques, you can master it...",
+      "image": "https://example.com/article-image8.jpg",
+      "tags": ["Public Speaking", "Skills"],
+      "read_time": "12 min read",
+      "selected_for": "Trending"
+    },
+    "interaction": {
+      "like": true,
+      "options": true
+    }
+  }
+]
