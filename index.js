@@ -33,6 +33,7 @@ async function run() {
       .db("webCodeSky-Db")
       .collection("allService");
     const allBlogsCollection = client.db("webCodeSky-Db").collection("blogs");
+    const ourWorksCollection = client.db("webCodeSky-Db").collection("works");
 
     app.post("/contact-users", async (req, res) => {
       const contactUsers = req.body;
@@ -82,6 +83,23 @@ async function run() {
       } catch (error) {
         console.error("Error fetching blog:", error);
         res.status(500).send({ message: "Internal server error" });
+      }
+    });
+
+    // our works
+    app.get("/works/:text", async (req, res) => {
+      if (
+        req.params.text == "FullWebsite" ||
+        req.params.text == "LandingPage" ||
+        req.params.text == "Portfolio"
+      ) {
+        const works = await ourWorksCollection
+          .find({
+            subCategory: req.params.text,
+          })
+          .toArray();
+        res.send(works);
+        console.log(works);
       }
     });
 
