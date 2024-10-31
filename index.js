@@ -45,9 +45,12 @@ async function run() {
     // service details
     app.get("/service-details/:text", async (req, res) => {
       if (
-        req.params.text == "EcommerceWebsite" ||
+        req.params.text == "ReactDevelopment" ||
         req.params.text == "WordPressWebsite" ||
-        req.params.text == "WebDesign"
+        req.params.text == "FrontendDevelopment" ||
+        req.params.text == "EcommerceWebsite" ||
+        req.params.text == "BusinessWebsite" ||
+        req.params.text == "FullStackDevelopment"
       ) {
         const serviceDetails = await serviceCollection
           .find({
@@ -90,8 +93,7 @@ async function run() {
     app.get("/works/:text", async (req, res) => {
       if (
         req.params.text == "FullWebsite" ||
-        req.params.text == "LandingPage" ||
-        req.params.text == "Portfolio"
+        req.params.text == "LandingPage"
       ) {
         const works = await ourWorksCollection
           .find({
